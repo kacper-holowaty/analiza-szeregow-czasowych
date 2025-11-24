@@ -49,30 +49,32 @@ mdane[ind.q3, 4] = mdane[ind.q3, 3] - ows.q3
 mdane[ind.q4, 4] = mdane[ind.q4, 3] - ows.q4
 mdane
 
-# wykres główny
-n = nrow(mdane)
-czas = 1:n
+# wykres
+DaneWykres=mdane[,2:4]
+Ymin=min(DaneWykres, na.rm=TRUE) * 1.05
+Ymax=max(DaneWykres, na.rm=TRUE) * 1.05
+s1=seq(from=Ymin, to=Ymax, len=nrow(DaneWykres))
 
-par(mar=c(6,5,2,2))
+# automatyczne utworzenie obszaru rysowania
+plot(s1, col="white", axes=FALSE, xlab=NA, ylab=NA, main=NA)
 
-plot(czas, mdane[,2], type="l", col="blue", lwd=2,
-     main="Analiza zmian wartości dodanej brutto (GVA) dla Grecji",
-     xlab="", ylab="Wartość",
-     ylim=c(min(mdane[,c(2,3,4)], na.rm=T), max(mdane[,c(2,3,4)], na.rm=T)),
-     xaxt="n")
-lines(czas, mdane[,3], col="orange", lwd=2)
-lines(czas, mdane[,4], col="green3", lwd=2)
-abline(h=0, col="gray", lty=2)
-axis(1, at=seq(1, n, by=4), labels=mdane[seq(1, n, by=4), 1], las=2, cex.axis=0.8)
+# dodanie osi odciętych (poziomej)
+par(las=1, ps=8, lwd=2)
+axis(side=1, at=1:nrow(DaneWykres), labels=1:nrow(DaneWykres), pos=Ymin, tck=-0.02)
 
-# legenda pod wykresem, poza obszarem kreślenia
-par(xpd=TRUE)
-legend(x=grconvertX(0.5, from="npc", to="user"), 
-       y=grconvertY(0, from="npc", to="user") - 0.34*diff(par("usr")[3:4]),
-       legend=c("GVA", "Przyrost kwartalny", "Wahania losowe"),
-       col=c("blue", "orange", "green3"), 
-       lwd=2, cex=0.9, bg="white", horiz=TRUE, xjust=0.5, yjust=1)
-par(xpd=FALSE)
+aty=seq(from=Ymin, to=Ymax, len=5)
+axis(side=2, pos=1, at=aty, labels=round(aty,1), tck=-0.02)
 
-# przywrocenie marginesow
-par(mar=c(5,4,4,2))
+par(lwd=3)
+lines(DaneWykres[,1], type="l", col="red")
+lines(DaneWykres[,2], type="l", col="blue")
+lines(DaneWykres[,3], type="l", col="magenta")
+
+par(ps=12)
+mtext(text="GVA Grecji w latach 2017-2025", side=3, line=1)
+
+par(ps=8)
+mtext(text="Kwartały lat 2017-2025", side=1, line=2)
+
+par(las=0)
+mtext(text="Miliony Euro", side=2, line=3)
