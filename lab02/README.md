@@ -1,11 +1,11 @@
-# Analiza wartości dodanej brutto (GVA) dla Grecji - Konwersja cen nominalnych na ceny stałe
+# Analiza wartości dodanej brutto (GVA) dla Grecji - Rebazowanie cen stałych
 
 ### 📋 Opis
-Analiza procesu konwersji wartości dodanej brutto (Gross Value Added - GVA) z cen nominalnych (bieżących) na ceny stałe dla Grecji. Celem jest umożliwienie porównania rzeczywistego wzrostu gospodarczego poprzez wyeliminowanie wpływu inflacji.
+Analiza procesu rebazowania (zmiany roku bazowego) wartości dodanej brutto (Gross Value Added - GVA) dla Grecji. Celem jest przeliczenie danych z cen stałych roku 2020 (dostępnych w Eurostat) na ceny stałe roku 2015 i 2024, aby umożliwić porównania z innymi danymi wykorzystującymi te lata bazowe.
 
-**Ceny nominalne (bieżące)** - wartości wyrażone w cenach obowiązujących w danym momencie czasu. Zawierają efekt inflacji, przez co wartości z różnych lat nie są bezpośrednio porównywalne.
+**Ceny stałe (realne)** - wartości skorygowane o inflację i przeliczone na ceny z wybranego roku bazowego. Eliminują wpływ wzrostu cen, dzięki czemu pokazują rzeczywisty wzrost gospodarczy i pozwalają porównywać dane z różnych okresów.
 
-**Ceny stałe** - wartości skorygowane o inflację i przeliczone na ceny z wybranego roku bazowego. Eliminują wpływ wzrostu cen, dzięki czemu pokazują rzeczywisty wzrost gospodarczy i pozwalają porównywać dane z różnych okresów.
+**Rebazowanie** - proces przeliczania danych z jednego roku bazowego na inny. Dane w cenach stałych 2020 można przekształcić na ceny stałe 2015 lub 2024, zachowując te same tempo i dynamikę zmian.
 
 Wykorzystano dane z [Eurostat](https://ec.europa.eu/eurostat/web/national-accounts/database) dla danych kwartalnych wartości dodanej brutto (GVA) dla Grecji w okresie od 1995 do 2025 roku, a także roczne dane GVA w cenach stałych roku 2015 i 2024. 
 
@@ -22,7 +22,7 @@ Wykorzystano dane z [Eurostat](https://ec.europa.eu/eurostat/web/national-accoun
 
 2. Agregacja danych kwartalnych do rocznych
 
-    Z danych kwartalnych obliczono roczne wartości GVA poprzez sumowanie czterech kwartałów dla każdego roku. Otrzymano roczne wartości w cenach nominalnych.
+    Z danych kwartalnych w cenach stałych 2020 obliczono roczne wartości GVA poprzez sumowanie czterech kwartałów dla każdego roku.
 
 3. Obliczenie rocznych indeksów łańcuchowych
 
@@ -32,7 +32,7 @@ Wykorzystano dane z [Eurostat](https://ec.europa.eu/eurostat/web/national-accoun
     ```
 
 4. Konwersja na ceny stałe roku 2015
-    Proces konwersji wykorzystuje roczną wartość GVA z Eurostatu (w cenach stałych) w 2015 dla Grecji oraz indeksy łańcuchowe kwartalne z danych nominalnych.
+    Proces konwersji wykorzystuje roczną wartość GVA z Eurostatu (w cenach stałych) w 2015 dla Grecji oraz indeksy łańcuchowe kwartalne z danych w cenach stałych 2020.
 
     Za pomocą narzędzia **Solver w Excelu** wyznaczono wartość GVA dla pierwszego kwartału roku 2015. Solver automatycznie dobiera tę wartość tak, aby suma czterech kwartałów była równa rocznej wartości z Eurostatu. Po ustaleniu tej wartości pozostałe kwartały obliczono poprzez:
     ```
@@ -57,6 +57,6 @@ Wykorzystano dane z [Eurostat](https://ec.europa.eu/eurostat/web/national-accoun
 
 **GVA** - miara tego, ile wartości wytworzyła gospodarka danego kraju w określonym okresie. Jest to suma wszystkich dóbr i usług wyprodukowanych przez przedsiębiorstwa i instytucje, pomniejszona o koszty zużytych surowców i materiałów.
 
-**Przyrost kwartalny** - GVA dla cen stałych w 2024 roku po usunięciu trendu
+**Przyrost kwartalny** - GVA dla cen stałych z rokiem bazowym 2024 po usunięciu trendu
 
-**Wahania losowe** - GVA dla cen stałych w 2024 roku po usunięciu trendu i sezonowości
+**Wahania losowe** - GVA dla cen stałych z rokiem bazowym 2024 po usunięciu trendu i sezonowości
