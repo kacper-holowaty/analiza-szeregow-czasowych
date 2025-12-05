@@ -7,4 +7,4 @@ Analiza dekompozycji szeregu czasowego wartości dodanej brutto (Gross Value Add
 Analiza procesu konwersji wartości dodanej brutto (Gross Value Added - GVA) z cen nominalnych (bieżących) na ceny stałe dla Grecji. Celem jest umożliwienie porównania rzeczywistego wzrostu gospodarczego poprzez wyeliminowanie wpływu inflacji.
 
 ## [Laboratorium 3](lab03/)
-Analiza szeregu czasowego wartości dodanej brutto (Gross Value Added - GVA) dla Grecji wyrażonej w cenach stałych poprzez porównanie trzech modeli trendu - liniowego, potęgowego i wykładniczego.
+Analiza szeregu czasowego wartości dodanej brutto (Gross Value Added - GVA) dla Grecji wyrażonej w cenach nominalnych poprzez porównanie pięciu modeli trendu - liniowego, potęgowego, wykładniczego, kwadratowego oraz logistycznego.
