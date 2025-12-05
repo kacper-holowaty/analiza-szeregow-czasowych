@@ -8,3 +8,4 @@ Analiza procesu rebazowania (zmiany roku bazowego) wartości dodanej brutto (Gro
 
 ## [Laboratorium 3](lab03/)
 Analiza szeregu czasowego wartości dodanej brutto (Gross Value Added - GVA) dla Grecji wyrażonej w cenach nominalnych poprzez porównanie pięciu modeli trendu - liniowego, potęgowego, wykładniczego, kwadratowego oraz logistycznego.
+
