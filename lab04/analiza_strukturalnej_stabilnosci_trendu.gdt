@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gretldata SYSTEM "gretldata.dtd">
+
+<gretldata version="1.5" name="Lab05_Kacper_Hołowaty" frequency="4" n="62" startobs="2010:1" endobs="2025:2" type="time-series">
+<description>Zaimportowano dane z pliku Excel 'dane_gretl_grecja.xlsx', 2025-12-18 15:07
+</description>
+<variables count="6">
+<variable name="gva"
+/>
+<variable name="time"
+ label="zmienna czasowa t"
+/>
+<variable name="kwadrat"
+ label="time*time"
+/>
+<variable name="d1"
+ label="(time&gt;=2020:1)"
+/>
+<variable name="td1"
+ label="time*d1"
+/>
+<variable name="sq_td1"
+ label="= td1 do kwadratu"
+/>
+</variables>
+<observations count="62" labels="false">
+<obs>48489.7 1 1 0 0 0 </obs>
+<obs>49856.6 2 4 0 0 0 </obs>
+<obs>48755.4 3 9 0 0 0 </obs>
+<obs>50094 4 16 0 0 0 </obs>
+<obs>43083.6 5 25 0 0 0 </obs>
+<obs>45650.8 6 36 0 0 0 </obs>
+<obs>45345 7 49 0 0 0 </obs>
+<obs>44267.9 8 64 0 0 0 </obs>
+<obs>39075.2 9 81 0 0 0 </obs>
+<obs>41223.8 10 100 0 0 0 </obs>
+<obs>41766.8 11 121 0 0 0 </obs>
+<obs>41700.4 12 144 0 0 0 </obs>
+<obs>36810.7 13 169 0 0 0 </obs>
+<obs>39772.1 14 196 0 0 0 </obs>
+<obs>40769.2 15 225 0 0 0 </obs>
+<obs>40443.2 16 256 0 0 0 </obs>
+<obs>36236.6 17 289 0 0 0 </obs>
+<obs>38745.9 18 324 0 0 0 </obs>
+<obs>40325.3 19 361 0 0 0 </obs>
+<obs>40047.5 20 400 0 0 0 </obs>
+<obs>36268.1 21 441 0 0 0 </obs>
+<obs>38729.1 22 484 0 0 0 </obs>
+<obs>39614 23 529 0 0 0 </obs>
+<obs>40169.5 24 576 0 0 0 </obs>
+<obs>35233.8 25 625 0 0 0 </obs>
+<obs>37936 26 676 0 0 0 </obs>
+<obs>39732 27 729 0 0 0 </obs>
+<obs>39113.8 28 784 0 0 0 </obs>
+<obs>35997.3 29 841 0 0 0 </obs>
+<obs>38526.1 30 900 0 0 0 </obs>
+<obs>41277.4 31 961 0 0 0 </obs>
+<obs>38981.5 32 1024 0 0 0 </obs>
+<obs>36049 33 1089 0 0 0 </obs>
+<obs>39184.9 34 1156 0 0 0 </obs>
+<obs>41724.6 35 1225 0 0 0 </obs>
+<obs>39676.4 36 1296 0 0 0 </obs>
+<obs>36562.7 37 1369 0 0 0 </obs>
+<obs>40409.9 38 1444 0 0 0 </obs>
+<obs>43406.8 39 1521 0 0 0 </obs>
+<obs>40353.2 40 1600 0 0 0 </obs>
+<obs>36283.3 41 1681 1 41 1681 </obs>
+<obs>34354.5 42 1764 1 42 1764 </obs>
+<obs>39026.3 43 1849 1 43 1849 </obs>
+<obs>37572.2 44 1936 1 44 1936 </obs>
+<obs>35500.3 45 2025 1 45 2025 </obs>
+<obs>39015.7 46 2116 1 46 2116 </obs>
+<obs>44025.3 47 2209 1 47 2209 </obs>
+<obs>42474.1 48 2304 1 48 2304 </obs>
+<obs>40446.6 49 2401 1 49 2401 </obs>
+<obs>44851.1 50 2500 1 50 2500 </obs>
+<obs>50374.1 51 2601 1 51 2601 </obs>
+<obs>47736.9 52 2704 1 52 2704 </obs>
+<obs>44156.9 53 2809 1 53 2809 </obs>
+<obs>48505.9 54 2916 1 54 2916 </obs>
+<obs>53448.4 55 3025 1 55 3025 </obs>
+<obs>50416.9 56 3136 1 56 3136 </obs>
+<obs>45905.4 57 3249 1 57 3249 </obs>
+<obs>51005 58 3364 1 58 3364 </obs>
+<obs>56074 59 3481 1 59 3481 </obs>
+<obs>52936 60 3600 1 60 3600 </obs>
+<obs>47907.8 61 3721 1 61 3721 </obs>
+<obs>53716 62 3844 1 62 3844 </obs>
+</observations>
+</gretldata>

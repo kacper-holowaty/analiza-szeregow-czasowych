@@ -9,3 +9,5 @@ Analiza procesu rebazowania (zmiany roku bazowego) wartości dodanej brutto (Gro
 ## [Laboratorium 3](lab03/)
 Analiza szeregu czasowego wartości dodanej brutto (Gross Value Added - GVA) dla Grecji wyrażonej w cenach nominalnych poprzez porównanie pięciu modeli trendu - liniowego, potęgowego, wykładniczego, kwadratowego oraz logistycznego.
 
+## [Laboratorium 4](lab04/)
+Analiza strukturalnej stabilności trendu GVA Grecji z wykorzystaniem testów Chowa i CUSUM. Głównym celem jest sprawdzenie, czy struktura modelu trendu kwadratowego pozostała stabilna w całym badanym okresie, czy też nastąpiło przełamanie strukturalne w okolicach pierwszego kwartału 2020 roku, które mogłoby być związane z pandemią COVID-19.
