@@ -130,6 +130,6 @@ gdzie:
 - $\beta_2 \approx 19.17$ 
 - $\delta_2$ (sq_td1) $\approx -44.85$ 
 
-Średnia szybkość wzrostu przed początkiem pandemii COVID-19 przypadającej na I kwartał 2020 roku wynosiła $-193.8222$, a więc GVA, z kwartału na kwartał, malała średnio o **$193.82$** milionów euro, co stanowi $0.48 \%$ średniej kwartalnej GVA.
+Średnia szybkość wzrostu przed początkiem pandemii COVID-19 przypadającej na I kwartał 2020 roku wynosiła $-193.8222$, a więc GVA, z kwartału na kwartał, malała średnio o **$193.82$** milionów euro, co stanowi $0.48 \\%$ średniej kwartalnej GVA.
 
-Średnia szybkość wzrostu po przełamaniu strukturalnym związanym z początkiem pandemii COVID-19 wynosiła $894.8946$, a więc GVA, z kwartału na kwartał, rosła średnio o **$894.89$** milionów euro, co stanowi $1.98 \%$ średniej kwartalnej GVA.
+Średnia szybkość wzrostu po przełamaniu strukturalnym związanym z początkiem pandemii COVID-19 wynosiła $894.8946$, a więc GVA, z kwartału na kwartał, rosła średnio o **$894.89$** milionów euro, co stanowi $1.98 \\%$ średniej kwartalnej GVA.
