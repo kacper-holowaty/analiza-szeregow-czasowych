@@ -114,7 +114,7 @@ Tempo wzrostu jest to po prostu szybkość wzrostu podzielona przez średnią wa
 
 Przeciętnie rzecz biorąc, z kwartału na kwartał wartość dodana brutto (GVA) dla Grecji rosła o 87.06 mln euro.
 
-Przeciętnie rzecz biorąc, z kwartału na kwartał wartość dodana brutto (GVA) dla Grecji rosła o $0.21 \%$.
+Przeciętnie rzecz biorąc, z kwartału na kwartał wartość dodana brutto (GVA) dla Grecji rosła o $0.21 \\%$.
 
 ### 📈 Wizualizacja
 ![Analiza GVA dla Grecji - trend liniowy](images/trend_liniowy_wykres.png)
@@ -183,7 +183,7 @@ gdzie:
 
 Przeciętnie rzecz biorąc, z kwartału na kwartał, wartość dodana brutto (GVA) dla Grecji malała o 2.496 mln euro.
 
-Przeciętnie rzecz biorąc, z kwartału na kwartał, wartość dodana brutto (GVA) dla Grecji malała o $0.046 \%$.
+Przeciętnie rzecz biorąc, z kwartału na kwartał, wartość dodana brutto (GVA) dla Grecji malała o $0.046 \\%$.
 
 ### 📈 Wizualizacja
 ![Analiza GVA dla Grecji - trend liniowy](images/trend_potegowy_wykres.png)
@@ -247,7 +247,7 @@ gdzie:
 
 Przeciętnie rzecz biorąc, z kwartału na kwartał, wartość dodana brutto (GVA) dla Grecji rosła o 100.07 mln euro.
 
-Przeciętnie rzecz biorąc, z kwartału na kwartał, wartość dodana brutto (GVA) dla Grecji rosła o $0.19 \%$.
+Przeciętnie rzecz biorąc, z kwartału na kwartał, wartość dodana brutto (GVA) dla Grecji rosła o $0.19 \\%$.
 
 ### 📈 Wizualizacja
 ![Analiza GVA dla Grecji - trend liniowy](images/trend_wykladniczy_wykres.png)
@@ -371,7 +371,7 @@ $$\frac{\frac{dy_t}{dt}}{y_t} = \frac{\beta_1 + 2 \cdot \beta_2 t}{y_t}$$
 - $\hat{\beta_1} \approx -889.69$
 - $\hat{\beta_2} \approx 15.03$
 
-Średnio rzecz biorąc, z kwartału na kwartał, GVA rosła o 87.06 mln euro, co stanowi $0.21 \%$ średniej kwartalnej GVA.
+Średnio rzecz biorąc, z kwartału na kwartał, GVA rosła o 87.06 mln euro, co stanowi $0.21 \\%$ średniej kwartalnej GVA.
 
 ### 📈 Wizualizacja
 ![Analiza GVA dla Grecji - trend liniowy](images/trend_kwadratowy_wykres.png)
@@ -463,7 +463,7 @@ gdzie:
 
 - Wariancja: $\hat{\sigma}^2 = 26740212$ 
 
-Średnio rzecz biorąc, z kwartału na kwartał, GVA rosła o 87.13 mln euro, co stanowi $0.21 \%$ średniej kwartalnej GVA.
+Średnio rzecz biorąc, z kwartału na kwartał, GVA rosła o 87.13 mln euro, co stanowi $0.21 \\%$ średniej kwartalnej GVA.
 
 ### 📈 Wizualizacja
 ![Analiza GVA dla Grecji - trend liniowy](images/trend_logistyczny_wykres.png)
