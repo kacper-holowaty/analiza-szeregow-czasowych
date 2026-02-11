@@ -69,7 +69,7 @@ Test CUSUM jest graficznym testem stabilności strukturalnej parametrów modelu 
 
 ![Analiza GVA dla Grecji - Test CUSUM](images/wykres_cusum_gretl.png)
 
-Test CUSUM dla Modelu 4 ujawnił brak pełnej stabilności parametrów. Statystyka CUSUM pozostawała w granicach 95% przedziału ufności do około 2023 roku, jednak od 2024 roku wykroczyła poza dolną granicę krytyczną, osiągając wartości około -10 do -11. Oznacza to odrzucenie hipotezy o stabilności parametrów i sugeruje, że model z jednym przełamaniem w 2020:1 może nie wychwytywać dodatkowych zmian strukturalnych występujących w końcowym okresie próby (2024-2025).
+Test CUSUM dla Modelu 4 wskazuje na słabnącą stabilność parametrów w końcówce próby. Choć statystyka CUSUM pozostaje wewnątrz 95% przedziału ufności, od 2024 roku wyraźnie dąży w stronę dolnej granicy krytycznej (osiągając ok. -10). Sugeruje to, że model z jednym przełamaniem w 2020:1 może nie w pełni oddawać zmiany strukturalne zachodzące w latach 2024–2025.
 
 #### 9. Analiza wyników
 
